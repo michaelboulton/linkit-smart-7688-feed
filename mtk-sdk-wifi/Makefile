@@ -28,10 +28,10 @@ PKG_CONFIG_DEPENDS := \
 include $(INCLUDE_DIR)/package.mk
 
 define Package/mtk-sdk-wifi
-  SECTION:=ralink
-  CATEGORY:=Ralink SDK
-  TITLE:=MT7628/88 SDK Wifi
-  DEPENDS:=@TARGET_ramips_mt7688_LinkIt7688 +wireless-tools +libuci
+  TITLE:=Modified MT7628/88 SDK Wifi
+  DEPENDS:=@TARGET_brcm2708_bcm2709_RaspberryPi2 \
+	+wireless-tools +libuci
+  CATEGORY:=Base system
   ABI_VERSION:=$(PKG_RELEASE)
 endef
 
