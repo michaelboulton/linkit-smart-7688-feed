@@ -24,7 +24,7 @@ define Package/mtk-linkit
 	+kmod-sdhci +kmod-usb-storage \
 	+kmod-video-core +kmod-video-uvc \
 	+kmod-sound-core +kmod-sound-arm-bcm2835 +madplay-alsa +alsa-utils \
-	+mtk-linkit-webui +tcpdump-mini
+	+mtk-linkit-webui +tcpdump-mini +wireless-tools
 
   CATEGORY:=Base system
   DEFAULT:=y
