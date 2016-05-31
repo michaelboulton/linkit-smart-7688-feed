@@ -29,7 +29,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/mtk-sdk-wifi
   TITLE:=Modified MT7628/88 SDK Wifi
-  DEPENDS:=@TARGET_brcm2708_bcm2709_RaspberryPi2 \
+  DEPENDS:=@TARGET_brcm2708_bcm2710_rpi_3 \
 	+wireless-tools +libuci
   CATEGORY:=Base system
   ABI_VERSION:=$(PKG_RELEASE)
