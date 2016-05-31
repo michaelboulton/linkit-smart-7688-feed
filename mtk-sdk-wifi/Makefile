@@ -32,6 +32,7 @@ define Package/mtk-sdk-wifi
   DEPENDS:=@TARGET_brcm2708_bcm2710_RaspberryPi_3 \
 	+wireless-tools +libuci
   CATEGORY:=Base system
+  DEFAULT:=n
   ABI_VERSION:=$(PKG_RELEASE)
 endef
 
