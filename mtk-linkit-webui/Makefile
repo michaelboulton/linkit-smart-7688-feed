@@ -20,7 +20,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/mtk-linkit-webui
   TITLE:=Modified LinkIt Smart 7688 Webui
-  DEPENDS:=@TARGET_brcm2708_bcm2710_rpi_3
+  DEPENDS:=@TARGET_brcm2708_bcm2710_RaspberryPi_3
 
   CATEGORY:=Base system
   DEFAULT:=y

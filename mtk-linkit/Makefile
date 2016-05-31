@@ -10,7 +10,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/mtk-linkit
   TITLE:=Modified MTK LinkIt Smart board support package
-  DEPENDS:=@TARGET_brcm2708_bcm2710_rpi_3 \
+  DEPENDS:=@TARGET_brcm2708_bcm2710_RaspberryPi_3 \
   	+gdbserver +curl +strace +coreutils +coreutils-stty \
   	+avahi-nodbus-daemon +mountd +mjpg-streamer \
 	+uhttpd +rpcd +rpcd-mod-iwinfo +git +git-http +samba36-server \
